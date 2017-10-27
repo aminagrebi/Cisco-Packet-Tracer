@@ -19,6 +19,17 @@ MassaRouter(config)#banner motd # Authorized use only!
 Enter TEXT message. End with the character '#'.
 
 unauthorized access will be punished at the full extent of the law #
+
+MassaRouter(config)#exit
+
+MassaRouter#
+
+%SYS-5-CONFIG_I: Configured from console by console
+
+MassaRouter#exit
+
+MassaRoute>
+
 ```
 
 ## Securing Access to the Router
