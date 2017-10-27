@@ -12,7 +12,6 @@ Router(config)#hostname MassaRouter
 
 Router(config)#ip domain-name massaelsham.com
 
-
 MassaRouter(config)#banner motd # Authorized use only!
 
 Enter TEXT message. End with the character '#'.
