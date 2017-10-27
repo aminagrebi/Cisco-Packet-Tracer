@@ -1,4 +1,4 @@
-# Cisco-Packet-Tracer
+# Cisco Packet Tracer
 
 ![Image alt attribute](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0001.PNG)
 
