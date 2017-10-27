@@ -1,7 +1,6 @@
 # Cisco-Packet-Tracer
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0001.PNG")
 
 ## Router Configuration
 ```
