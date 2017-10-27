@@ -1,6 +1,6 @@
 # Cisco-Packet-Tracer
 
-![alt text](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0001.PNG")
+![Image alt attribute](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0001.PNG)
 
 ## Router Configuration
 ```
