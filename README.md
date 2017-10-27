@@ -28,7 +28,7 @@ MassaRouter#
 
 MassaRouter#exit
 
-MassaRoute>
+MassaRouter>
 
 ```
 
