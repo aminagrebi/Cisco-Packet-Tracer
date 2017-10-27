@@ -1,6 +1,7 @@
 # Cisco-Packet-Tracer
 
 ## Router Configuration
+```
 Router>enable
 
 Router#configure terminal
@@ -17,6 +18,7 @@ MassaRouter(config)#banner motd # Authorized use only!
 Enter TEXT message. End with the character '#'.
 
 unauthorized access will be punished at the full extent of the law #
+```
 
 ## Securing Access to the Router
 
