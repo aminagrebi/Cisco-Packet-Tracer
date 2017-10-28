@@ -42,24 +42,38 @@ MassaRouter>
 
 2. Securing Access to the Router
 ```
-Router>enable
+MassaRouter>enable
 
-Router#configure terminal
+MassaRouter#configure terminal
 
-Router(config)#line console 0
+MassaRouter(config)#line console 0
 
-Router(config-line)#password cisco
+MassaRouter(config-line)#password cisco
 
-Router(config-line)#login
+MassaRouter(config-line)#login
 
-Router(config-line)#line aux 0
+MassaRouter(config-line)#line aux 0
 
-Router(config-line)#password cisco
+MassaRouter(config-line)#password cisco
 
-Router(config-line)#login
+MassaRouter(config-line)#login
 
-Router(config-line)#exit
+MassaRouter(config-line)#exit
 
-Router(config)#exit
+MassaRouter(config)#exit
 ```
+```
+MassaRouter> enble
+
+MassaRouter# config t
+
+MassaRouter(config)#enable secret cisco
+
+MassaRouter(config)#exit
+
+MassaRouter#exit
+```
+
+
+
 
