@@ -61,32 +61,5 @@ Router(config-line)#login
 Router(config-line)#exit
 
 Router(config)#exit
-
-Router#exit
-
-User Access Verification
-
-Password:
-
-Router>enable
-
-Router#conf t
-
-Enter configuration commands, one per line.  End with CNTL/Z.
-
-Router(config)#enable secret cisco
-
-Router(config)#exit
-
-Router#exit
-
-User Access Verification
-
-Password: 
-
-Router>enable
-
-Password: 
-
-Router#enable
+```
 
