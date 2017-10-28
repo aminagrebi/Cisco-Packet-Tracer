@@ -119,3 +119,38 @@ MassaRouter(config)#show running-config
 3.Enabling SSH on the Router
 
 ```
+MassaRouter> enble
+
+MassaRouter# config t
+
+MassaRouter(config)#crypto key generate rsa
+
+The name for the keys will be: MassaRouter.massaelsham.com
+
+Choose the size of the key modulus in the range of 360 to 2048 for your
+
+  General Purpose Keys. Choosing a key modulus greater than 512 may take
+  
+  a few minutes.
+
+How many bits in the modulus [512]: 1024
+
+% Generating 1024 bit RSA keys, keys will be non-exportable...[OK]
+
+MassaRouter(config)#ip ssh version 2
+
+MassaRouter(config)#username amin secret cisco
+
+MassaRouter(config)#line vty 0 4
+
+MassaRouter(config-line)#transport input ssh
+
+MassaRouter(config-line)#login local
+
+MassaRouter(config-line)#logging sync
+
+MassaRouter(config-line)#exit
+```
+```
+
+
