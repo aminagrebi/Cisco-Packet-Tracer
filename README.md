@@ -74,6 +74,45 @@ MassaRouter(config)#exit
 MassaRouter#exit
 ```
 
+```
+MassaRouter> enble
+
+MassaRouter# config t
+
+MassaRouter(config)#show running-config
+
+MassaRouter(config)#exit
+
+MassaRouter#exit
+```
+
+```
+MassaRouter> enble
+
+MassaRouter# config t
+
+MassaRouter(config)#service password-encryption
+
+MassaRouter(config)#exit
+
+MassaRouter#show run
+```
+
+```
+MassaRouter>enable
+
+MassaRouter#configure terminal
+
+MassaRouter(config)#line console 0
+
+MassaRouter(config-line)#logging sync
+
+MassaRouter(config)#line aux 0
+
+MassaRouter(config-line)#logging sync
 
 
+MassaRouter(config-line)#exit
 
+MassaRouter(config)#exit
+```
