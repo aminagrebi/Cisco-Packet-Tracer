@@ -114,5 +114,8 @@ MassaRouter(config-line)#logging sync
 
 MassaRouter(config-line)#exit
 
-MassaRouter(config)#exit
+MassaRouter(config)#show running-config
+```
+3.Enabling SSH on the Router
+
 ```
