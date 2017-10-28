@@ -1,6 +1,6 @@
 # Cisco Packet Tracer
 
-![Image alt attribute](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0001.PNG)
+![Image alt attribute](https://github.com/aminagrebi/Cisco-Packet-Tracer/blob/master/0002.PNG)
 
 ## Download
 [Packet Tracer 32 bit](https://s3.amazonaws.com/lr_assets/20002/518210206/14350002/1.0?response-content-type=application/x-msdownload&response-content-disposition=attachment%3Bfilename%3D%22PacketTracer71_32bit_setup_signed.exe%22&AWSAccessKeyId=AKIAJ7XLQRRFSJBP4HZQ&Expires=1509180577&Signature=OmApeKTehv0%2BJl2tJ9aa8OUi11A%3D)	
