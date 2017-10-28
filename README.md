@@ -9,6 +9,8 @@
 
 
 ## Router Configuration
+
+1. Base Configuration to the Router
 ```
 Router>enable
 
@@ -38,6 +40,7 @@ MassaRouter>
 
 ```
 
-## Securing Access to the Router
+2. Securing Access to the Router
+```
 
 
