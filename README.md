@@ -151,6 +151,21 @@ MassaRouter(config-line)#logging sync
 
 MassaRouter(config-line)#exit
 ```
+4.Configuring interfaces
+
 ```
+MassaRouter(config)#int f0/0
+MassaRouter(config-if)#ip address 10.0.0.1 255.255.255.128
+MassaRouter(config-if)#shutdown
+MassaRouter(config-if)#no shutdown
+MassaRouter(config-if)#int f1
+MassaRouter(config-if)#ip address 10.0.0.129 255.255.255.128
+MassaRouter(config-if)#no shutdown
+```
+5.Testing your Router
+```
+MassaRouter#copy running-config startup-config
+```
+
 
 
