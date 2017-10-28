@@ -42,5 +42,51 @@ MassaRouter>
 
 2. Securing Access to the Router
 ```
+Router>enable
 
+Router#configure terminal
+
+Router(config)#line console 0
+
+Router(config-line)#password cisco
+
+Router(config-line)#login
+
+Router(config-line)#line aux 0
+
+Router(config-line)#password cisco
+
+Router(config-line)#login
+
+Router(config-line)#exit
+
+Router(config)#exit
+
+Router#exit
+
+User Access Verification
+
+Password:
+
+Router>enable
+
+Router#conf t
+
+Enter configuration commands, one per line.  End with CNTL/Z.
+
+Router(config)#enable secret cisco
+
+Router(config)#exit
+
+Router#exit
+
+User Access Verification
+
+Password: 
+
+Router>enable
+
+Password: 
+
+Router#enable
 
